@@ -13755,3 +13755,479 @@ Warning: D:\DevEco_Projects\weather(1)\entry\src\main\resources\base\media\logo.
 [2025-07-20T11:17:39.418] [DEBUG] debug-file - worker[22] exits with exit code 1.
 [2025-07-20T11:17:39.418] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2025-07-20T11:17:39.419] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-20T11:28:20.012] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-07-20T11:28:20.397] [DEBUG] debug-file - env: daemon=true
+[2025-07-20T11:28:20.015] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: { 'ohpm-fast-plugin': '^0.1.6' },
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-07-20T11:28:21.502] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-07-20T11:28:21.752] [DEBUG] debug-file - java daemon started at port 45050 pid 66716
+[2025-07-20T11:28:21.777] [DEBUG] debug-file - session manager: set active socket. socketId=qLfvScD0_RB799y6AAAB
+[2025-07-20T11:28:22.693] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-20T11:28:22.714] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-20T11:28:22.725] [DEBUG] debug-file - Cache service initialization finished in 12 ms 
+[2025-07-20T11:28:22.740] [DEBUG] debug-file - hvigorfile, resolving D:\DevEco_Projects\weather(1)\hvigorfile.ts
+[2025-07-20T11:28:25.478] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-07-20T11:28:25.478] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-07-20T11:28:25.614] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-20T11:28:25.614] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-20T11:28:25.615] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-20T11:28:25.615] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-20T11:28:25.618] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-07-20T11:28:25.619] [DEBUG] debug-file - not found resModel json file in : D:\DevEco_Projects\weather(1)\entry\src\ohosTest\module.json5
+[2025-07-20T11:28:25.626] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-20T11:28:25.631] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-07-20T11:28:25.636] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-07-20T11:28:25.643] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-20T11:28:25.661] [DEBUG] debug-file - Sdk init in 34 ms 
+[2025-07-20T11:28:25.683] [DEBUG] debug-file - Project task initialization takes 21 ms 
+[2025-07-20T11:28:25.683] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-07-20T11:28:25.683] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\DevEco_Projects\weather(1)\hvigorfile.ts
+[2025-07-20T11:28:25.683] [DEBUG] debug-file - hvigorfile, resolve finished D:\DevEco_Projects\weather(1)\hvigorfile.ts
+[2025-07-20T11:28:25.691] [DEBUG] debug-file - hvigorfile, resolving D:\DevEco_Projects\weather(1)\entry\hvigorfile.ts
+[2025-07-20T11:28:25.764] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [ [Object] ] } }
+[2025-07-20T11:28:25.765] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-07-20T11:28:25.776] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-20T11:28:25.776] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-20T11:28:25.777] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-20T11:28:25.777] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-07-20T11:28:25.777] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-07-20T11:28:25.777] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-20T11:28:25.777] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2025-07-20T11:28:25.777] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-20T11:28:25.777] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-20T11:28:25.778] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": true,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      }
+    }
+  }
+}
+[2025-07-20T11:28:25.778] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-07-20T11:28:25.778] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-20T11:28:25.778] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-20T11:28:25.778] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-20T11:28:25.778] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-20T11:28:25.778] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-07-20T11:28:25.778] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-07-20T11:28:25.778] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-20T11:28:25.778] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-07-20T11:28:25.783] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2025-07-20T11:28:25.783] [DEBUG] debug-file - hvigorfile, binding custom plugins [ { pluginId: 'modulePlugin' } ]
+[2025-07-20T11:28:25.783] [DEBUG] debug-file - hvigorfile, resolve finished D:\DevEco_Projects\weather(1)\entry\hvigorfile.ts
+[2025-07-20T11:28:25.785] [DEBUG] debug-file - hvigorfile, executing apply function of custom plugin, pluginId = modulePlugin
+[2025-07-20T11:28:25.841] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 12 ms 
+[2025-07-20T11:28:25.842] [DEBUG] debug-file - project has submodules:entry
+[2025-07-20T11:28:25.844] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-07-20T11:28:25.851] [DEBUG] debug-file - load to the disk finished
+[2025-07-20T11:28:25.852] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-20T11:28:25.865] [DEBUG] debug-file - Module weather(1) Collected Dependency: D:\DevEco_Projects\weather(1)\oh_modules\.ohpm\@ohos+axios@2.2.6\oh_modules\@ohos\axios
+[2025-07-20T11:28:25.866] [DEBUG] debug-file - Module weather(1)'s total dependency: 1
+[2025-07-20T11:28:25.866] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-20T11:28:25.880] [DEBUG] debug-file - Module entry Collected Dependency: D:\DevEco_Projects\weather(1)\oh_modules\.ohpm\hytech@kdsfnhgbsotl8e4uvm+8w+h6f0iokan68nven3+mg0k=\oh_modules\hytech,D:\DevEco_Projects\weather(1)\oh_modules\.ohpm\ohbuild@v+et0wf5nob+ists4zol35jtrvun4yutjffyrezijow=\oh_modules\ohbuild,D:\DevEco_Projects\weather(1)\oh_modules\.ohpm\ohbuild@v+et0wf5nob+ists4zol35jtrvun4yutjffyrezijow=\oh_modules\ohbuild\src\main\cpp\types\libohbuild,D:\DevEco_Projects\weather(1)\oh_modules\.ohpm\@ohos+axios@2.2.6\oh_modules\@ohos\axios
+[2025-07-20T11:28:25.880] [DEBUG] debug-file - Module entry's total dependency: 4
+[2025-07-20T11:28:25.884] [DEBUG] debug-file - Configuration phase cost:3 s 154 ms 
+[2025-07-20T11:28:25.886] [DEBUG] debug-file - Configuration task cost before running: 3 s 189 ms 
+[2025-07-20T11:28:25.890] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.890] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.890] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.890] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.894] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-07-20T11:28:25.905] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 8 ms .
+[2025-07-20T11:28:25.905] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.32680511474609375
+[2025-07-20T11:28:25.908] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-07-20T11:28:25.910] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.910] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.910] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.910] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.911] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-07-20T11:28:25.912] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-20T11:28:25.913] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.06255340576171875
+[2025-07-20T11:28:25.913] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 215 ms 
+[2025-07-20T11:28:25.914] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 2 ms 
+[2025-07-20T11:28:25.917] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.917] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.917] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.917] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.918] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-07-20T11:28:25.919] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 2 ms 
+[2025-07-20T11:28:25.920] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 2 ms .
+[2025-07-20T11:28:25.920] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.33666229248046875
+[2025-07-20T11:28:25.920] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2025-07-20T11:28:25.923] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.923] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.923] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.923] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.924] [DEBUG] debug-file - Resolve native package ohbuild.
+[2025-07-20T11:28:25.925] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-07-20T11:28:25.925] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.925] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.925] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.925] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.925] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.06130218505859375
+[2025-07-20T11:28:25.925] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 227 ms 
+[2025-07-20T11:28:25.925] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2025-07-20T11:28:25.928] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.928] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.928] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.928] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.929] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-07-20T11:28:25.934] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 4 ms .
+[2025-07-20T11:28:25.934] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.20641326904296875
+[2025-07-20T11:28:25.935] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-07-20T11:28:25.937] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.937] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.937] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.937] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.938] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-07-20T11:28:25.941] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 3 ms 
+[2025-07-20T11:28:25.942] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 2 ms .
+[2025-07-20T11:28:25.942] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.10602569580078125
+[2025-07-20T11:28:25.942] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-07-20T11:28:25.944] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.944] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.944] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.944] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.945] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-07-20T11:28:25.945] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.945] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.945] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.945] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.945] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.0614471435546875
+[2025-07-20T11:28:25.945] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 247 ms 
+[2025-07-20T11:28:25.945] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-07-20T11:28:25.947] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.948] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.948] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.948] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.949] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-07-20T11:28:25.958] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-20T11:28:25.959] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.446807861328125
+[2025-07-20T11:28:25.959] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 261 ms 
+[2025-07-20T11:28:25.959] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 10 ms 
+[2025-07-20T11:28:25.961] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.961] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.961] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.961] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.966] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-07-20T11:28:25.968] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'D:\DevEco_Projects\weather(1)\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2025-07-20T11:28:25.968] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2025-07-20T11:28:25.968] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.968] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.968] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.968] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.968] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.14019775390625
+[2025-07-20T11:28:25.969] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 271 ms 
+[2025-07-20T11:28:25.969] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 3 ms 
+[2025-07-20T11:28:25.972] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.972] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.972] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.972] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.974] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-07-20T11:28:25.974] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.974] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.974] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.974] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.974] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.062591552734375
+[2025-07-20T11:28:25.974] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 277 ms 
+[2025-07-20T11:28:25.974] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-07-20T11:28:25.977] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.977] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.977] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.977] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.978] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-07-20T11:28:25.981] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 3 ms .
+[2025-07-20T11:28:25.981] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.15422821044921875
+[2025-07-20T11:28:25.982] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2025-07-20T11:28:25.985] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.985] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.985] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.985] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.986] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-07-20T11:28:25.986] [DEBUG] debug-file - File: 'D:\DevEco_Projects\weather(1)\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-07-20T11:28:25.987] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-07-20T11:28:25.998] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2025-07-20T11:28:25.999] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 12 ms .
+[2025-07-20T11:28:25.999] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:25.999] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.999] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:25.999] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:25.999] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.19242095947265625
+[2025-07-20T11:28:25.999] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 301 ms 
+[2025-07-20T11:28:25.999] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 13 ms 
+[2025-07-20T11:28:26.001] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.002] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.002] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.002] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.003] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-07-20T11:28:26.005] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-07-20T11:28:26.005] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.11714935302734375
+[2025-07-20T11:28:26.005] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-07-20T11:28:26.008] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.008] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.008] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.008] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.009] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-07-20T11:28:26.014] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 4 ms .
+[2025-07-20T11:28:26.014] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.2443695068359375
+[2025-07-20T11:28:26.016] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-07-20T11:28:26.018] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.018] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.018] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.018] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.018] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2025-07-20T11:28:26.018] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2025-07-20T11:28:26.020] [DEBUG] debug-file - entry:default@ProcessStartupConfig is not up-to-date, since the output file 'D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\startup\default\startup_config.json' does not exist.
+[2025-07-20T11:28:26.020] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig pre-execution cost: 2 ms .
+[2025-07-20T11:28:26.020] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.020] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.020] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.020] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.022] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.2198486328125
+[2025-07-20T11:28:26.022] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 324 ms 
+[2025-07-20T11:28:26.022] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 4 ms 
+[2025-07-20T11:28:26.025] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.025] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.025] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.025] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.025] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-07-20T11:28:26.026] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.026] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.026] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.026] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.026] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.21926116943359375
+[2025-07-20T11:28:26.027] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 329 ms 
+[2025-07-20T11:28:26.027] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2025-07-20T11:28:26.030] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.030] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.030] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.030] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.031] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-07-20T11:28:26.035] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-07-20T11:28:26.037] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 2 ms .
+[2025-07-20T11:28:26.037] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.163177490234375
+[2025-07-20T11:28:26.040] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2025-07-20T11:28:26.043] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.043] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.043] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.043] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.048] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-07-20T11:28:26.064] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 10 ms .
+[2025-07-20T11:28:26.064] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.8167343139648438
+[2025-07-20T11:28:26.070] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-07-20T11:28:26.072] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.072] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.072] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.072] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.073] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-07-20T11:28:26.085] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 6 ms .
+[2025-07-20T11:28:26.085] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.5045013427734375
+[2025-07-20T11:28:26.086] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2025-07-20T11:28:26.088] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.088] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.088] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.088] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.089] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-07-20T11:28:26.093] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-07-20T11:28:26.307] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 213 ms .
+[2025-07-20T11:28:26.307] [DEBUG] debug-file - entry : default@CompileResource cost memory -4.2085113525390625
+[2025-07-20T11:28:26.308] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2025-07-20T11:28:26.310] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.310] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.310] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.310] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.313] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-07-20T11:28:26.313] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-07-20T11:28:26.316] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 4 ms .
+[2025-07-20T11:28:26.316] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.1888427734375
+[2025-07-20T11:28:26.316] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2025-07-20T11:28:26.319] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.319] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.319] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.319] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.323] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-07-20T11:28:26.323] [DEBUG] debug-file - obfuscationOptions: undefined
+[2025-07-20T11:28:26.376] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 43 ms .
+[2025-07-20T11:28:26.376] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 2.2174758911132812
+[2025-07-20T11:28:26.381] [INFO] debug-file - UP-TO-DATE :entry:default@CompileArkTS...  
+[2025-07-20T11:28:26.383] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.383] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.383] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.383] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.387] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-07-20T11:28:26.391] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.1560211181640625
+[2025-07-20T11:28:26.391] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 693 ms 
+[2025-07-20T11:28:26.391] [INFO] debug-file - Finished :entry:default@BuildJS... after 4 ms 
+[2025-07-20T11:28:26.393] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.394] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.394] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.394] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.396] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-07-20T11:28:26.396] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-07-20T11:28:26.400] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 4 ms .
+[2025-07-20T11:28:26.400] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.201446533203125
+[2025-07-20T11:28:26.400] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2025-07-20T11:28:26.402] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.403] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.403] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.403] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.404] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-07-20T11:28:26.404] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-07-20T11:28:26.405] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 1 ms .
+[2025-07-20T11:28:26.405] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.07309722900390625
+[2025-07-20T11:28:26.405] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2025-07-20T11:28:26.408] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.408] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.408] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.408] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.416] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-07-20T11:28:26.514] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 97 ms .
+[2025-07-20T11:28:26.514] [DEBUG] debug-file - entry : default@PackageHap cost memory 4.9162750244140625
+[2025-07-20T11:28:26.516] [INFO] debug-file - UP-TO-DATE :entry:default@PackageHap...  
+[2025-07-20T11:28:26.519] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.519] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.519] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.519] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.523] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-07-20T11:28:26.523] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in D:\DevEco_Projects\weather(1)\build-profile.json5.
+[2025-07-20T11:28:26.524] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the output file 'D:\DevEco_Projects\weather(1)\entry\build\default\outputs\default\entry-default-signed.hap' does not exist.
+[2025-07-20T11:28:26.524] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2025-07-20T11:28:26.524] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.524] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.524] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.524] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.525] [DEBUG] debug-file - entry : default@SignHap cost memory 0.14096832275390625
+[2025-07-20T11:28:26.525] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 827 ms 
+[2025-07-20T11:28:26.525] [INFO] debug-file - Finished :entry:default@SignHap... after 3 ms 
+[2025-07-20T11:28:26.528] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.528] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.528] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.528] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.529] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2025-07-20T11:28:26.534] [DEBUG] debug-file - jsonObjWithoutParam {"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"} at undefined
+[2025-07-20T11:28:26.534] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.534] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-20T11:28:26.534] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"hytech":"file:../AppScope/hytech.har","ohbuild":"file:src/mock/ohbuild.har"},"devDependencies":{},"dynamicDependencies":{}} at undefined
+[2025-07-20T11:28:26.534] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.24916839599609375
+[2025-07-20T11:28:26.534] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 837 ms 
+[2025-07-20T11:28:26.534] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 6 ms 
+[2025-07-20T11:28:26.536] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-07-20T11:28:26.536] [DEBUG] debug-file - entry : assembleHap cost memory 0.0121002197265625
+[2025-07-20T11:28:26.536] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 838 ms 
+[2025-07-20T11:28:26.536] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-07-20T11:28:26.554] [DEBUG] debug-file - BUILD SUCCESSFUL in 3 s 856 ms 
+[2025-07-20T11:28:26.554] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-07-20T11:28:26.555] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\DevEco_Projects\weather(1)\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2025-07-20T11:28:26.555] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-07-20T11:28:26.555] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2025-07-20T11:28:26.555] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-07-20T11:28:26.555] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-07-20T11:28:26.555] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-07-20T11:28:26.556] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-07-20T11:28:26.556] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:D:\DevEco_Projects\weather(1)\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2025-07-20T11:28:26.557] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-07-20T11:28:26.557] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2025-07-20T11:28:26.557] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\DevEco\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2025-07-20T11:28:26.557] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\DevEco\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2025-07-20T11:28:26.558] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2025-07-20T11:28:26.558] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2025-07-20T11:28:26.558] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-07-20T11:28:26.559] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-07-20T11:28:26.559] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\startup\default\startup_config.json cache.
+[2025-07-20T11:28:26.559] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2025-07-20T11:28:26.559] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2025-07-20T11:28:26.560] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-07-20T11:28:26.560] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2025-07-20T11:28:26.560] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2025-07-20T11:28:26.560] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2025-07-20T11:28:26.560] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileArkTS is up-to-date.
+[2025-07-20T11:28:26.561] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-07-20T11:28:26.562] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\DevEco_Projects\weather(1)\oh_modules\.ohpm\hytech@kdsfnhgbsotl8e4uvm+8w+h6f0iokan68nven3+mg0k=\oh_modules\hytech\Index.js cache by regenerate.
+[2025-07-20T11:28:26.563] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\DevEco_Projects\weather(1)\oh_modules\.ohpm\ohbuild@v+et0wf5nob+ists4zol35jtrvun4yutjffyrezijow=\oh_modules\ohbuild\Index.js cache by regenerate.
+[2025-07-20T11:28:26.563] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\DevEco_Projects\weather(1)\oh_modules\.ohpm\@ohos+axios@2.2.6\oh_modules\@ohos\axios\index.js cache by regenerate.
+[2025-07-20T11:28:26.563] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2025-07-20T11:28:26.564] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-07-20T11:28:26.564] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2025-07-20T11:28:26.565] [DEBUG] debug-file - Update task entry:default@BuildJS input file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-07-20T11:28:26.566] [DEBUG] debug-file - Update task entry:default@BuildJS output file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\loader_out\default\js cache.
+[2025-07-20T11:28:26.567] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:7 ms .
+[2025-07-20T11:28:26.567] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2025-07-20T11:28:26.567] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2025-07-20T11:28:26.567] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PackageHap is up-to-date.
+[2025-07-20T11:28:26.567] [DEBUG] debug-file - Update task entry:default@SignHap input file:D:\DevEco_Projects\weather(1)\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2025-07-20T11:28:26.567] [DEBUG] debug-file - Update task entry:default@SignHap output file:D:\DevEco_Projects\weather(1)\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2025-07-20T11:28:26.567] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-07-20T11:28:26.570] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2025-07-20T11:28:26.570] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:D:\DevEco_Projects\weather(1)\entry\build\default\intermediates\libs\default cache by regenerate.
+[2025-07-20T11:28:26.572] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:D:\DevEco_Projects\weather(1)\entry\build\default\outputs\default\symbol cache.
+[2025-07-20T11:28:26.572] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:5 ms .
+[2025-07-20T11:28:26.610] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-07-20T11:28:26.610] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-07-20T11:28:26.611] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-20T11:28:26.612] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-20T11:28:26.611] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-07-20T11:28:26.612] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-07-20T11:28:26.614] [DEBUG] debug-file - Cleanup worker 0.
+[2025-07-20T11:28:26.614] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-07-20T11:28:26.614] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-07-20T11:28:26.614] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-20T11:28:26.614] [DEBUG] debug-file - Cleanup worker 1.
+[2025-07-20T11:28:26.614] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-07-20T11:28:26.614] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-07-20T11:28:26.614] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-07-20T11:28:26.615] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-20T11:28:26.618] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-20T11:28:26.618] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-20T11:28:26.618] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-07-20T11:28:26.619] [DEBUG] debug-file - worker[1] exits with exit code 0.

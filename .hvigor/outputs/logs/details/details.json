@@ -3,10 +3,7 @@
     "MODULES": [
       {
         "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
-        "API_TYPE": "stageMode",
-        "INCREMENTAL_TASKS": {
-          "COMPILE_ARKTS": true
-        }
+        "API_TYPE": "stageMode"
       }
     ],
     "BUILD_MODE": "debug"
@@ -18,30 +15,19 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "1043bfc77febe75fafec0c4309faccf1": {
-        "PreBuild": 12128000,
-        "CreateModuleInfo": 1722700,
-        "GenerateMetadata": 2377700,
-        "ConfigureCmake": 292900,
-        "MergeProfile": 27574900,
-        "PreCheckSyscap": 807000,
-        "GeneratePkgContextInfo": 6867800,
-        "ProcessIntegratedHsp": 2393400,
-        "BuildNativeWithCmake": 415500,
-        "MakePackInfo": 4011000,
-        "SyscapTransform": 2938200,
-        "ProcessProfile": 961121400,
-        "ProcessRouterMap": 6293200,
-        "ProcessStartupConfig": 3378400,
-        "BuildNativeWithNinja": 1339900,
-        "GenerateLoaderJson": 24093600,
-        "CompileResource": 1139575700,
-        "BuildJS": 3947500,
-        "CompileArkTS": 1028535800,
-        "GeneratePkgModuleJson": 2289400,
-        "PackageHap": 196235600,
-        "SignHap": 1409200,
-        "CollectDebugSymbol": 4647300,
-        "assembleHap": 172600
+        "CreateModuleInfo": 3036400,
+        "ConfigureCmake": 384700,
+        "PreCheckSyscap": 429200,
+        "GeneratePkgContextInfo": 9836400,
+        "ProcessIntegratedHsp": 2587600,
+        "BuildNativeWithCmake": 364900,
+        "SyscapTransform": 12841300,
+        "ProcessStartupConfig": 4254700,
+        "BuildNativeWithNinja": 1641400,
+        "BuildJS": 4030400,
+        "SignHap": 2519300,
+        "CollectDebugSymbol": 5749300,
+        "assembleHap": 267200
       }
     },
     "CONFIG_PROPERTIES": {
@@ -49,7 +35,7 @@
       "skipNativeIncremental": false,
       "hvigor_keepDependency": true
     },
-    "TOTAL_TIME": 3745368100,
-    "BUILD_ID": "202507201117352860"
+    "BUILD_ID": "202507201128226960",
+    "TOTAL_TIME": 3855300600
   }
 }
