@@ -1,0 +1,29 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "main",
+      "value": "#03DAC5"
+    },
+    {
+      "name": "tint_main",
+      "value": "#FF03DAC5"
+    },
+    {
+      "name": "gray_bg",
+      "value": "#f3f3f3"
+    },
+
+    {
+      "name": "tint_gray",
+      "value": "#FFE3E0E0"
+    },
+    {
+      "name": "red",
+      "value": "#FFEF2626"
+    }
+  ]
+}

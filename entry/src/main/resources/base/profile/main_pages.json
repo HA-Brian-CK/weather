@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/SplashPage",
+    "pages/RegistPage",
+    "pages/LoginPage",
+    "pages/MainPage",
+    "pages/Search/SearchPage",
+    "pages/CityWeather/CityWeatherFragment",
+    "pages/CityWeather/Forecast24Hour/Forecast24HourWeather",
+    "pages/DayTrend/DayTrendPage"
+  ]
+}

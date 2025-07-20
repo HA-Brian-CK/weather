@@ -1,0 +1,1 @@
+{"name":"hytech","version":"1.0.2","description":"本仓库是","main":"Index.js","author":"likeu","license":"MIT","dependencies":{},"types":"Index.d.ets","artifactType":"obfuscation","metadata":{"sourceRoots":["./src/main"],"debug":false,"useNormalizedOHMUrl":false},"compatibleSdkVersion":12,"compatibleSdkType":"HarmonyOS","obfuscated":true}

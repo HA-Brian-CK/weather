@@ -1,0 +1,27 @@
+{
+  "responseCode": 200,
+  "cookies": "",
+  "header": {
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "host,x-real-ip,x-forwarded-for,connection,remoteip,user-agent,accept,accept-encoding,content-type",
+    "access-control-allow-methods": "POST,GET,PUT,DELETE,PATCH,OPTIONS",
+    "access-control-allow-origin": "*",
+    "content-length": "15",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Tue, 20 May 2025 03:46:03 GMT"
+  },
+  "result": "{\"success\":\"1\"}",
+  "resultType": 0,
+  "performanceTiming": {
+    "dnsTiming": 42.885,
+    "firstReceiveTiming": 472.187,
+    "firstSendTiming": 219.036,
+    "redirectTiming": 0,
+    "responseBodyTiming": 479.567,
+    "responseHeaderTiming": 479.565,
+    "tcpTiming": 90.953,
+    "tlsTiming": 218.634,
+    "totalFinishTiming": 473.394,
+    "totalTiming": 482.796
+  }
+}

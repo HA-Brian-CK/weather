@@ -1,0 +1,104 @@
+{
+  "lockVersion": "1.0",
+  "settings": {
+    "resolveConflict": true,
+    "resolveConflictStrict": false,
+    "installAll": true
+  },
+  "overrides": {},
+  "overrideDependencyMap": {},
+  "modules": {
+    ".": {
+      "name": "",
+      "dependencies": {
+        "@ohos/axios": {
+          "specifier": "^2.2.0",
+          "version": "2.2.6"
+        }
+      },
+      "devDependencies": {
+        "@ohos/hypium": {
+          "specifier": "1.0.18",
+          "version": "1.0.18"
+        },
+        "@ohos/hamock": {
+          "specifier": "1.0.0",
+          "version": "1.0.0"
+        }
+      },
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "entry": {
+      "name": "entry",
+      "dependencies": {
+        "hytech": {
+          "specifier": "file:AppScope/hytech.har",
+          "version": "file:AppScope/hytech.har"
+        },
+        "ohbuild": {
+          "specifier": "file:entry/src/mock/ohbuild.har",
+          "version": "file:entry/src/mock/ohbuild.har"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    }
+  },
+  "packages": {
+    "@ohos/axios@2.2.6": {
+      "integrity": "sha512-A1JqGe6XaeqWyjQETitFW4EkubQS7Fv7h0YG5a/ry3/a/vOgVGzwC4y5KAhvMzVv1tYjfY0ntMtV2kJGlmOHcQ==",
+      "storePath": "oh_modules/.ohpm/@ohos+axios@2.2.6",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/hypium@1.0.18": {
+      "integrity": "sha512-RGe/iLGdeywdQilMWZsHKUoiE9OJ+9QxQsorF92R2ImLNVHVhbpSePNITGpW7TnvLgOIP/jscOqfIOhk6X7XRQ==",
+      "storePath": "oh_modules/.ohpm/@ohos+hypium@1.0.18",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": true,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/hamock@1.0.0": {
+      "integrity": "sha512-K6lDPYc6VkKe6ZBNQa9aoG+ZZMiwqfcR/7yAVFSUGIuOAhPvCJAo9+t1fZnpe0dBRBPxj2bxPPbKh69VuyAtDg==",
+      "storePath": "oh_modules/.ohpm/@ohos+hamock@1.0.0",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": true,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "hytech@file:AppScope/hytech.har": {
+      "storePath": "oh_modules/.ohpm/hytech@kdsfnhgbsotl8e4uvm+8w+h6f0iokan68nven3+mg0k=",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "ohbuild@file:entry/src/mock/ohbuild.har": {
+      "storePath": "oh_modules/.ohpm/ohbuild@v+et0wf5nob+ists4zol35jtrvun4yutjffyrezijow=",
+      "dependencies": {
+        "libohbuild.so": "oh_modules/.ohpm/ohbuild@v+et0wf5nob+ists4zol35jtrvun4yutjffyrezijow=/oh_modules/ohbuild/src/main/cpp/types/libohbuild"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "libohbuild.so@file:oh_modules/.ohpm/ohbuild@v+et0wf5nob+ists4zol35jtrvun4yutjffyrezijow=/oh_modules/ohbuild/src/main/cpp/types/libohbuild": {
+      "storePath": "oh_modules/.ohpm/ohbuild@v+et0wf5nob+ists4zol35jtrvun4yutjffyrezijow=/oh_modules/ohbuild/src/main/cpp/types/libohbuild",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    }
+  }
+}
