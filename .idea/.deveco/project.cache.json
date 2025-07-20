@@ -9,7 +9,7 @@
 		"BUNDLE_NAME":"com.zushiye.weathers",
 		"SELECT_BUILD_MODE":"",
 		"BUILD_PATH":{
-			"OUTPUT_PATH":"D:\\code\\HarmonyOS\\weather\\build\\outputs\\default"
+			"OUTPUT_PATH":"D:\\DevEco_Projects\\weather(1)\\build\\outputs\\default"
 		},
 		"SELECT_BUILD_PRODUCT":"default"
 	}

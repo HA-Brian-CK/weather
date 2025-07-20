@@ -3,7 +3,10 @@
     "MODULES": [
       {
         "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
-        "API_TYPE": "stageMode"
+        "API_TYPE": "stageMode",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": true
+        }
       }
     ],
     "BUILD_MODE": "debug"
@@ -15,19 +18,30 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "1043bfc77febe75fafec0c4309faccf1": {
-        "CreateModuleInfo": 2348700,
-        "ConfigureCmake": 466400,
-        "PreCheckSyscap": 441100,
-        "GeneratePkgContextInfo": 8632400,
-        "ProcessIntegratedHsp": 2643300,
-        "BuildNativeWithCmake": 358400,
-        "SyscapTransform": 10932000,
-        "ProcessStartupConfig": 2961700,
-        "BuildNativeWithNinja": 1139200,
-        "BuildJS": 4260400,
-        "SignHap": 2246700,
-        "CollectDebugSymbol": 4219100,
-        "assembleHap": 238900
+        "PreBuild": 12128000,
+        "CreateModuleInfo": 1722700,
+        "GenerateMetadata": 2377700,
+        "ConfigureCmake": 292900,
+        "MergeProfile": 27574900,
+        "PreCheckSyscap": 807000,
+        "GeneratePkgContextInfo": 6867800,
+        "ProcessIntegratedHsp": 2393400,
+        "BuildNativeWithCmake": 415500,
+        "MakePackInfo": 4011000,
+        "SyscapTransform": 2938200,
+        "ProcessProfile": 961121400,
+        "ProcessRouterMap": 6293200,
+        "ProcessStartupConfig": 3378400,
+        "BuildNativeWithNinja": 1339900,
+        "GenerateLoaderJson": 24093600,
+        "CompileResource": 1139575700,
+        "BuildJS": 3947500,
+        "CompileArkTS": 1028535800,
+        "GeneratePkgModuleJson": 2289400,
+        "PackageHap": 196235600,
+        "SignHap": 1409200,
+        "CollectDebugSymbol": 4647300,
+        "assembleHap": 172600
       }
     },
     "CONFIG_PROPERTIES": {
@@ -35,7 +49,7 @@
       "skipNativeIncremental": false,
       "hvigor_keepDependency": true
     },
-    "BUILD_ID": "202507201033580160",
-    "TOTAL_TIME": 3031431600
+    "TOTAL_TIME": 3745368100,
+    "BUILD_ID": "202507201117352860"
   }
 }

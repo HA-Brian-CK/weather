@@ -49,29 +49,6 @@ struct SplashPage {
       Image($r('app.media.splash'))
         .width('100%')
         .height('100%')
-      Text(`跳过 ${this.countDownSeconds}`)
-        .fontColor(Color.White)
-        .fontSize('12fp')
-        .letterSpacing(0.05)
-        .backgroundColor('#33000000')
-        .border({
-          radius: '18vp',
-          width: '1',
-          color: Color.White
-        })
-        .margin({
-          top: '50vp',
-          left: '260vp'
-        })
-        .padding({
-          left: '12vp',
-          top: '8vp',
-          right: '12vp',
-          bottom: '8vp'
-        })
-        .onClick(() => {
-          this.jumpToAppHomePage();
-        })
 
       Flex({
         direction: FlexDirection.Column,
@@ -93,6 +70,28 @@ struct SplashPage {
       .height('100%')
       .margin({top:'-125vp'})
 
+      Button(`跳过 ${this.countDownSeconds}`)
+        .fontColor(Color.White)
+        .fontSize('12fp')
+        .backgroundColor('#33000000')
+        .border({
+          radius: '18vp',
+          width: '1',
+          color: Color.White
+        })
+        .margin({
+          top: '50vp',
+          left: '260vp'
+        })
+        .padding({
+          left: '12vp',
+          top: '8vp',
+          right: '12vp',
+          bottom: '8vp'
+        })
+        .onClick(() => {
+          this.jumpToAppHomePage();
+        })
     }
 
   }

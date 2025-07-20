@@ -54,26 +54,26 @@
         // 网络请求,
         "name": 'ohos.permission.INTERNET',
       },
-      {
-        // 精确定位
-        "name": "ohos.permission.LOCATION",
-        "reason": "$string:LocationPermissionReason",
-        "usedScene": {
-          "abilities": [
-            "定位所在城市"
-          ]
-        }
-      },
-      {
-        // 大致定位
-        "name": "ohos.permission.APPROXIMATELY_LOCATION",
-        "reason": "$string:LocationPermissionReason",
-        "usedScene": {
-          "abilities": [
-            "定位所在城市"
-          ]
-        }
-      }
+//      {
+//        // 精确定位
+//        "name": "ohos.permission.LOCATION",
+//        "reason": "$string:LocationPermissionReason",
+//        "usedScene": {
+//          "abilities": [
+//            "定位所在城市"
+//          ]
+//        }
+//      },
+//      {
+//        // 大致定位
+//        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+//        "reason": "$string:LocationPermissionReason",
+//        "usedScene": {
+//          "abilities": [
+//            "定位所在城市"
+//          ]
+//        }
+//      }
     ],
   }
 }
